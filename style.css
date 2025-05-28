@@ -12,7 +12,7 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
+    background-color: gainsboro;
     color: black;
     text-decoration: none;
     padding: 15px;
@@ -31,14 +31,13 @@ nav {
 
 .nav-link {
     font-size: 24px;
-    color: white;
     text-decoration: none;
     display: block;
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: red;
     font-size: 36px;
     margin-top: 45px;
     margin-bottom: 40px;
@@ -104,15 +103,49 @@ aside{
     background-color: gray;
     right: 0px;
     bottom: 0px;
-    width: 120px;
+    width: 200px;
     border-radius: 20px;
     border: solid darkgrey 4px;
     padding-left: 20px;
+    font-size: 24px;
 
 }
 .happy{
-    position: relative;
-    left: 150px;
-    top: 60px;
+    position: absolute;
+    left: 250px;
+    top: 5px;
+    width: 200px
 
+}
+.skibidi::before{
+    content : url("https://learn.alg.academy/uploads/student/5099405/682dc8c42a325.png");
+    width: 20px;
+    height: 10px;
+}
+.skibidi::after{
+    content : url("https://learn.alg.academy/uploads/student/5099405/682dc8c42a325.png");
+    width: 20px;
+    height: 10px;
+}
+.post:hover{
+    background-color: gainsboro;
+    border: solid 5px dimgray;
+    
+}
+nav a:hover{
+    border: darkgray double 3px;
+    color: gray;
+
+
+}
+.button:hover{
+    border-radius: 6px;
+    border: ;
+}
+.article-but{
+    background-color: aliceblue;
+    color: black;
+}
+nav a{
+    color: red;
 }
